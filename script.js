@@ -8,8 +8,8 @@ const colorScale = d3.scale
     .domain([0, 0.5, 1])
     .range(["#446093", "#874e8e", "#bc3939"]),
   opacityScale = d3.scale.linear().domain([0, 1000]).range([0, 1]),
-  republican = "STEVE RUSSELL",
-  democrat = "KENDRA HORN",
+  republican = "STEPHANIE BICE",
+  democrat = "KENDRA S. HORN",
   electionData =
     "https://raw.githubusercontent.com/JesseCHowe/oklahoma-election-2020-5th-district-results/main/data/results.csv",
   precinctData =
